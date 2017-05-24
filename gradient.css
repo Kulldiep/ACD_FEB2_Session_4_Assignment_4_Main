@@ -1,0 +1,66 @@
+#grad1 {
+height:60px;
+width: 60px;
+background: -webkit-linear-gradient(left, red, yellow, green, blue); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(left, red, yellow, green, blue); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(left, red, yellow, green, blue); /* For Fx 3.6 to 15 */
+background: linear-gradient(to right, left, red, yellow, green, blue); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+height:60px;
+width: 60px;
+/* Webkit (Safari/Chrome 10) */ 
+background: -webkit-gradient(radial, center top, 0, center top, 258, color-stop(10, red), color-stop(20, yellow), color-stop(40, green), color-stop(60, blue));
+
+/* Webkit (Chrome 11+) */ 
+background: -webkit-radial-gradient(center top, ellipse farthest-side, red 10%, yellow 30%, green 60%, blue 90%);
+background: -o-radial-gradient(center top, ellipse farthest-side, red 10%, yellow 30%, green 60%, blue 90%); /* For Opera 11.1 to 12.0 */
+background: -moz-radial-gradient(center top, ellipse farthest-side, red 10%, yellow 30%, green 60%, blue 90%); /* For Fx 3.6 to 15 */
+background: radial-gradient(ellipse farthest-side at center top, red 10%, yellow 30%, green 60%, blue 90%); /* Standard syntax (must be last) */
+}
+
+#grad3 {
+height:60px;
+width: 60px;
+background: -webkit-radial-gradient(center top, circle farthest-side, red 5%, yellow 32%, green 40%, blue 100%);/* Webkit (Chrome 11+) */ 
+background: -o-radial-gradient(center top, circle farthest-side, red 5%, yellow 32%, green 40%, blue 100%); /* For Opera 11.1 to 12.0 */
+background: -moz-radial-gradient(center top, circle farthest-side, red 5%, yellow 32%, green 40%, blue 100%); /* For Fx 3.6 to 15 */
+background: radial-gradient(circle farthest-side at center top, red 5%, yellow 32%, green 40%, blue 100%); /* Standard syntax (must be last) */
+}
+
+.exterior1 {
+margin:0px 0px 0px 100px;
+}
+
+.exterior2 {
+margin:-60px 0px 0px 180px;
+}
+
+.exterior3 {
+margin:-60px 0px 0px 260px;
+}
+
+.interior1 {
+text-align:center;
+color:black;
+font-size:10px;
+font-weight:bold;
+padding: 25px 0px 0px 0px;
+}
+
+.interior2 {
+text-align:center;
+color:black;
+font-size:10px;
+font-weight:bold;
+padding: 25px 0px 0px 0px;
+}
+
+.interior3 {
+text-align:center;
+color:black;
+font-size:10px;
+font-weight:bold;
+padding: 25px 0px 0px 0px;
+}
